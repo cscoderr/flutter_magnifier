@@ -14,7 +14,7 @@ class HomePage extends HookWidget {
   Widget build(BuildContext context) {
     final size = useState(AppConstants.minSize);
     final scale = useState(AppConstants.minScale);
-    final rotation = useState(0 * math.pi / 180);
+    final rotation = useState(30 * math.pi / 180);
     return Scaffold(
       backgroundColor: Colors.white70,
       body: SafeArea(
