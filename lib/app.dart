@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_manifier_effect/home_page.dart';
-import 'package:flutter_manifier_effect/transform_test.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
